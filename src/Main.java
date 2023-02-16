@@ -110,9 +110,9 @@ public class Main {
 
         if ( one > two || one > three) {
             System.out.println(one + " наибольшее значение");
-        } else if (two > one) {
+        } else if (two > three || two > one) {
             System.out.println(two + " наибольшее значение");
-        } else if (three > one) {
+        } else if (three > two) {
             System.out.println(three + " наибольшее значение");
         }
     }
